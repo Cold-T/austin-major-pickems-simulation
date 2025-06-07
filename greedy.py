@@ -19,7 +19,7 @@ from scipy import stats
 
 matplotlib.use('TkAgg')
 
-file_path = "0.0000_1.0000_349.2000.txt"  # 替换为您的文件路径
+file_path = "0.3000_0.7000_349.2000.txt"  # 替换为您的文件路径
 
 def parse_simulation_results(file_path: str) -> dict:
     """
